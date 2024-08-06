@@ -1,0 +1,10 @@
+<h2>Home Page</h2>
+<p>Welcome to the home page.</p>
+<!-- Example API call -->
+<script>
+    fetchFromApi('https://api.example.com/home-data')
+        .then(data => {
+            document.getElementById('home-content').innerHTML = JSON.stringify(data);
+        });
+</script>
+<div id="home-content"></div>

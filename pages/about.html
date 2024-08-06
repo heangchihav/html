@@ -1,0 +1,10 @@
+<h2>About Page</h2>
+<p>Learn more about us on this page.</p>
+<!-- Example API call -->
+<script>
+    fetchFromApi('https://api.example.com/about-data')
+        .then(data => {
+            document.getElementById('about-content').innerHTML = JSON.stringify(data);
+        });
+</script>
+<div id="about-content"></div>

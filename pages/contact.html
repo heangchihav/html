@@ -1,0 +1,10 @@
+<h2>Contact Page</h2>
+<p>Get in touch with us here.</p>
+<!-- Example API call -->
+<script>
+    fetchFromApi('https://api.example.com/contact-data')
+        .then(data => {
+            document.getElementById('contact-content').innerHTML = JSON.stringify(data);
+        });
+</script>
+<div id="contact-content"></div>
