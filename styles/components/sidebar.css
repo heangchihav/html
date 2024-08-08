@@ -1,0 +1,20 @@
+aside {
+    background-color: #f4f4f4;
+    padding: 1em;
+    width: 200px;
+}
+aside ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+aside ul li {
+    margin-bottom: 0.5em;
+}
+aside ul li a {
+    color: #333;
+    text-decoration: none;
+}
+aside ul li a:hover {
+    text-decoration: underline;
+}
